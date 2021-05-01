@@ -1,0 +1,13 @@
+import turtle
+wn = turtle.Screen()
+
+elan = turtle.Turtle()
+
+distance = 50
+rangeNumber=1000
+angle=90
+for _ in range(rangeNumber):
+    elan.pencolor('blue')
+    elan.forward(distance)
+    elan.right(angle)
+    distance = distance + 10
